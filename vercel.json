@@ -2,11 +2,5 @@
   "buildCommand": "npm run install:frontend && npm run build",
   "outputDirectory": "frontend/dist",
   "installCommand": "npm install",
-  "framework": "vite",
-  "functions": {
-    "api/index.js": {
-      "runtime": "nodejs18",
-      "maxDuration": 10
-    }
-  }
+  "framework": "vite"
 }
