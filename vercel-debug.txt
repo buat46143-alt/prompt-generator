@@ -1,0 +1,160 @@
+❯ vercel --prod --debug
+> [debug] [2026-04-18T22:03:25.796Z] Found config in file "/home/tiar/Projects/Javascript/prompt-generator/vercel.json"
+> [debug] [2026-04-18T22:03:25.798Z] Vercel CLI 51.7.0
+> [debug] [2026-04-18T22:03:25.930Z] Agent/TTY/nonInteractive: isAgent=false agentName=none stdin.isTTY=true --non-interactive=false explicitFalse=false => nonInteractive=false
+> [debug] [2026-04-18T22:03:25.931Z] user supplied a possible target for deployment or an extension
+> [debug] [2026-04-18T22:03:25.942Z] failed to find extension command with name "vercel---prod"
+> [debug] [2026-04-18T22:03:26.162Z] Setting target to production
+> [debug] [2026-04-18T22:03:26.186Z] Spinner invoked (Retrieving project…) with a 1000ms delay
+> [debug] [2026-04-18T22:03:26.189Z] Valid access token, skipping token refresh.
+> [debug] [2026-04-18T22:03:26.214Z] #1 → GET https://api.vercel.com/teams/team_boN9ijpvfHaHqZY2SjdNZzYK?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+> [debug] [2026-04-18T22:03:26.217Z] #2 → GET https://api.vercel.com/v9/projects/prj_NbTy0KsZ5122I9xOXm5zVwArXqql?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+> [debug] [2026-04-18T22:03:27.096Z] #2 ← 200 OK: sfo1::98r7x-1776549806894-711935273220 [879ms]
+> [debug] [2026-04-18T22:03:27.601Z] #1 ← 200 OK: sfo1::rw76h-1776549806899-eb2fc1a9e979 [1.39s]
+> [debug] [2026-04-18T22:03:27.673Z] Spinner invoked (Deploying buat46143-7999s-projects/prompt-generator) with a 0ms delay
+[client-debug] 2026-04-18T22:03:27.673Z Creating deployment...
+[client-debug] 2026-04-18T22:03:27.674Z Provided 'path' is a directory.
+[client-debug] 2026-04-18T22:03:27.678Z Found 26 rules in .vercelignore
+[client-debug] 2026-04-18T22:03:27.678Z Building file tree...
+[client-debug] 2026-04-18T22:03:27.691Z Found 71 files in the specified directory
+[client-debug] 2026-04-18T22:03:27.993Z Yielding a 'hashes-calculated' event with 68 hashes
+> [debug] [2026-04-18T22:03:27.997Z] #3 → GET https://api.vercel.com/v9/projects/prompt-generator?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+> [debug] [2026-04-18T22:03:28.318Z] #3 ← 200 OK: sfo1::6tmjh-1776549808111-4755b66e683b [321ms]
+[client-debug] 2026-04-18T22:03:28.327Z Using provided API URL: https://api.vercel.com
+[client-debug] 2026-04-18T22:03:28.328Z Using provided user agent: vercel 51.7.0 node-v24.13.1 linux (x64)
+[client-debug] 2026-04-18T22:03:28.328Z Setting platform version to harcoded value 2
+[client-debug] 2026-04-18T22:03:28.328Z Creating the deployment and starting upload...
+[client-debug] 2026-04-18T22:03:28.329Z Determining necessary files for upload...
+[client-debug] 2026-04-18T22:03:28.330Z Creating deployment
+[client-debug] 2026-04-18T22:03:28.336Z Sending deployment creation API request
+[client-debug] 2026-04-18T22:03:28.728Z Deployment response: {"error":{"code":"missing_files","message":"Missing files","missing":["1dc0833128d53194c99d98ff2b14a8b28b7cbf77","2cbd08d66593ec2d7d86d20d6ff93a5d1b9f7143","576a0c5b896bcfcd539988eb64e6d6e5815236b1","9dce17a7507aa9b4625222550566236f0a59bcbe","ad7af6aa082ffd4535b4b15b812b1bdf39ade0d6","c91fa49afc53a03eb29f15abac80187990219897","f4fbdb9985805e0f87673831ca864192bfb943bd"]}}
+[client-debug] 2026-04-18T22:03:28.728Z Error: Deployment request status is 400
+[client-debug] 2026-04-18T22:03:28.728Z 7 files are required to upload
+[client-debug] 2026-04-18T22:03:28.729Z Yielding a 'file-count' event
+> [debug] [2026-04-18T22:03:28.729Z] Total files 68, 7 changed
+> [debug] [2026-04-18T22:03:28.731Z] Spinner invoked (Uploading [--------------------] (0.0B/223.4KB)) with a 0ms delay
+[client-debug] 2026-04-18T22:03:28.733Z Building an upload list...
+[client-debug] 2026-04-18T22:03:28.738Z Starting upload
+[client-debug] 2026-04-18T22:03:28.740Z POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:28.743Z POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:28.746Z POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:28.755Z POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:28.762Z POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:28.770Z POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:28.775Z POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+> [debug] [2026-04-18T22:03:28.780Z] Spinner invoked (Uploading [--------------------] (376.0B/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.781Z] Spinner invoked (Uploading [--------------------] (960.0B/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.782Z] Spinner invoked (Uploading [=-------------------] (12.4KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.783Z] Spinner invoked (Uploading [=-------------------] (14.0KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.783Z] Spinner invoked (Uploading [=-------------------] (15.1KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.784Z] Spinner invoked (Uploading [==------------------] (31.1KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.784Z] Spinner invoked (Uploading [====----------------] (47.1KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.784Z] Spinner invoked (Uploading [=====---------------] (63.1KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.785Z] Spinner invoked (Uploading [=======-------------] (79.1KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:28.785Z] Spinner invoked (Uploading [=======-------------] (80.2KB/223.4KB)) with a 0ms delay
+[client-debug] 2026-04-18T22:03:29.136Z DONE in 392ms: POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:29.136Z File 2cbd08d66593ec2d7d86d20d6ff93a5d1b9f7143 (/home/tiar/Projects/Javascript/prompt-generator/frontend/dist/index.html) uploaded
+[client-debug] 2026-04-18T22:03:29.136Z Yielding a 'file-uploaded' event
+> [debug] [2026-04-18T22:03:29.137Z] Uploaded: /home/tiar/Projects/Javascript/prompt-generator/frontend/dist/index.html (584B)
+[client-debug] 2026-04-18T22:03:29.139Z DONE in 399ms: POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:29.139Z File 1dc0833128d53194c99d98ff2b14a8b28b7cbf77 (/home/tiar/Projects/Javascript/prompt-generator/vercel.json) uploaded
+[client-debug] 2026-04-18T22:03:29.139Z Yielding a 'file-uploaded' event
+> [debug] [2026-04-18T22:03:29.140Z] Uploaded: /home/tiar/Projects/Javascript/prompt-generator/vercel.json (376B)
+> [debug] [2026-04-18T22:03:29.268Z] Spinner invoked (Uploading [========------------] (96.2KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:29.268Z] Spinner invoked (Uploading [==========----------] (112.2KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:29.268Z] Spinner invoked (Uploading [===========---------] (128.2KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:29.268Z] Spinner invoked (Uploading [============--------] (144.2KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:29.303Z] Spinner invoked (Uploading [==============------] (160.2KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:29.304Z] Spinner invoked (Uploading [===============-----] (176.2KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:29.304Z] Spinner invoked (Uploading [=================---] (192.2KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:29.305Z] Spinner invoked (Uploading [==================--] (208.2KB/223.4KB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:29.342Z] Spinner invoked (Uploading [====================] (223.4KB/223.4KB)) with a 0ms delay
+[client-debug] 2026-04-18T22:03:29.648Z DONE in 873ms: POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:29.648Z File f4fbdb9985805e0f87673831ca864192bfb943bd (/home/tiar/Projects/Javascript/prompt-generator/frontend/src/services/api.js) uploaded
+[client-debug] 2026-04-18T22:03:29.649Z Yielding a 'file-uploaded' event
+> [debug] [2026-04-18T22:03:29.649Z] Uploaded: /home/tiar/Projects/Javascript/prompt-generator/frontend/src/services/api.js (1.09KB)
+[client-debug] 2026-04-18T22:03:29.652Z DONE in 897ms: POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:29.652Z File 9dce17a7507aa9b4625222550566236f0a59bcbe (/home/tiar/Projects/Javascript/prompt-generator/frontend/dist/sw.js) uploaded
+[client-debug] 2026-04-18T22:03:29.652Z Yielding a 'file-uploaded' event
+> [debug] [2026-04-18T22:03:29.652Z] Uploaded: /home/tiar/Projects/Javascript/prompt-generator/frontend/dist/sw.js (1.57KB)
+[client-debug] 2026-04-18T22:03:29.655Z DONE in 909ms: POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:29.655Z File 576a0c5b896bcfcd539988eb64e6d6e5815236b1 (/home/tiar/Projects/Javascript/prompt-generator/frontend/src/components/PromptForm.jsx) uploaded
+[client-debug] 2026-04-18T22:03:29.655Z Yielding a 'file-uploaded' event
+> [debug] [2026-04-18T22:03:29.655Z] Uploaded: /home/tiar/Projects/Javascript/prompt-generator/frontend/src/components/PromptForm.jsx (11.47KB)
+[client-debug] 2026-04-18T22:03:30.132Z DONE in 1370ms: POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:30.133Z File ad7af6aa082ffd4535b4b15b812b1bdf39ade0d6 (/home/tiar/Projects/Javascript/prompt-generator/frontend/src/services/apiV2.js) uploaded
+[client-debug] 2026-04-18T22:03:30.133Z Yielding a 'file-uploaded' event
+> [debug] [2026-04-18T22:03:30.133Z] Uploaded: /home/tiar/Projects/Javascript/prompt-generator/frontend/src/services/apiV2.js (1.12KB)
+[client-debug] 2026-04-18T22:03:30.365Z DONE in 1595ms: POST https://api.vercel.com/v2/files?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:30.365Z File c91fa49afc53a03eb29f15abac80187990219897 (/home/tiar/Projects/Javascript/prompt-generator/frontend/dist/assets/index-CRpnFnLD.js) uploaded
+[client-debug] 2026-04-18T22:03:30.365Z Yielding a 'file-uploaded' event
+> [debug] [2026-04-18T22:03:30.365Z] Uploaded: /home/tiar/Projects/Javascript/prompt-generator/frontend/dist/assets/index-CRpnFnLD.js (207.18KB)
+[client-debug] 2026-04-18T22:03:30.365Z All files uploaded
+[client-debug] 2026-04-18T22:03:30.366Z Yielding a 'all-files-uploaded' event
+[client-debug] 2026-04-18T22:03:30.366Z Starting deployment creation
+[client-debug] 2026-04-18T22:03:30.366Z Creating deployment
+[client-debug] 2026-04-18T22:03:30.368Z Sending deployment creation API request
+[client-debug] 2026-04-18T22:03:32.405Z Deployment response: {"alias":["prompt-generator-buat46143-7999s-projects.vercel.app","prompt-generator-buat46143-7999-buat46143-7999s-projects.vercel.app"],"aliasAssigned":false,"automaticAliases":["prompt-generator-buat46143-7999s-projects.vercel.app","prompt-generator-buat46143-7999-buat46143-7999s-projects.vercel.app"],"bootedAt":1776549810872,"buildingAt":1776549810872,"buildSkipped":false,"createdAt":1776549810872,"creator":{"uid":"K9b5K5je4ZUZtjmMmpatcgXE","username":"buat46143-7999"},"id":"dpl_HkMf1Q1FyCcg2dKK1W88357cLBZ7","name":"prompt-generator","meta":{"githubCommitAuthorName":"tiar430","githubCommitAuthorEmail":"filar31@gmail.com","githubCommitMessage":"Fix: Install backend deps in Vercel","githubCommitOrg":"buat46143-alt","githubCommitRef":"main","githubCommitRepo":"prompt-generator","githubCommitSha":"991cfc80b8d7abd2e17e6a032a55a7d7f98d1fb9","githubDeployment":"1","githubOrg":"buat46143-alt","githubRepo":"prompt-generator"},"originCacheRegion":"iad1","project":{"id":"prj_NbTy0KsZ5122I9xOXm5zVwArXqql","name":"prompt-generator","framework":"services"},"public":false,"readyState":"INITIALIZING","regions":["iad1"],"source":"cli","status":"INITIALIZING","target":"production","team":{"id":"team_boN9ijpvfHaHqZY2SjdNZzYK","name":"buat46143-7999's projects","slug":"buat46143-7999s-projects"},"type":"LAMBDAS","url":"prompt-generator-buhmng2xy-buat46143-7999s-projects.vercel.app","version":2,"previewCommentsEnabled":true,"oidcTokenClaims":{"sub":"owner:buat46143-7999s-projects:project:prompt-generator:environment:production","iss":"https://oidc.vercel.com/buat46143-7999s-projects","scope":"owner:buat46143-7999s-projects:project:prompt-generator:environment:production","aud":"https://vercel.com/buat46143-7999s-projects","owner":"buat46143-7999s-projects","owner_id":"team_boN9ijpvfHaHqZY2SjdNZzYK","project":"prompt-generator","project_id":"prj_NbTy0KsZ5122I9xOXm5zVwArXqql","environment":"production","plan":"hobby"},"lambdas":[{"id":"bld_92cpcgo75","createdAt":1776549811944,"entrypoint":".","readyState":"READY","readyStateAt":1776549811944,"output":[]}],"aliasAssignedAt":null,"build":{"env":[]},"builds":[],"createdIn":"sfo1","env":[],"functions":null,"inspectorUrl":"https://vercel.com/buat46143-7999s-projects/prompt-generator/HkMf1Q1FyCcg2dKK1W88357cLBZ7","isInConcurrentBuildsQueue":false,"isInSystemBuildsQueue":true,"ownerId":"team_boN9ijpvfHaHqZY2SjdNZzYK","plan":"hobby","projectId":"prj_NbTy0KsZ5122I9xOXm5zVwArXqql","projectSettings":{"buildCommand":"cd frontend && npm install && npm run build","devCommand":null,"framework":"services","commandForIgnoringBuildStep":null,"installCommand":"npm install && cd backend && npm install","outputDirectory":"frontend/dist","speedInsights":{"id":"Beto5dcGriL11SdADuO4JbR5PUr","hasData":false},"webAnalytics":{"id":"igHmE2M1K3erYFPnRS2ThCoD8"},"nodeVersion":"24.x"},"routes":null,"config":{"version":1,"secureComputePrimaryRegion":null,"secureComputeFallbackRegion":null,"functionTimeout":300,"functionType":"fluid","functionMemoryType":"standard","isUsingActiveCPU":true,"resourceConfig":{"buildQueue":{"configuration":"SKIP_NAMESPACE_QUEUE"}}},"attribution":{"commitMeta":{"name":"tiar430","email":"filar31@gmail.com","isVerified":false},"gitUser":{"id":236922907,"login":"tiar430","type":"user","provider":"github"},"vercelUser":{"id":"F6F4YuKCWOu3n1mRazEKqkzr","username":"tyarr962-6370"}}}
+[client-debug] 2026-04-18T22:03:32.405Z Deployment created
+[client-debug] 2026-04-18T22:03:32.405Z Yielding a 'created' event
+🔍  Inspect: https://vercel.com/buat46143-7999s-projects/prompt-generator/HkMf1Q1FyCcg2dKK1W88357cLBZ7 [5s]
+⏳  Production: https://prompt-generator-buhmng2xy-buat46143-7999s-projects.vercel.app [5s]
+> [debug] [2026-04-18T22:03:32.418Z] Spinner invoked (Building...) with a 0ms delay
+> [debug] [2026-04-18T22:03:32.420Z] #4 → GET https://api.vercel.com/v2/user
+[client-debug] 2026-04-18T22:03:32.420Z Waiting for deployment to be ready...
+[client-debug] 2026-04-18T22:03:32.422Z Waiting for builds and the deployment to complete...
+> [debug] [2026-04-18T22:03:32.664Z] #4 ← 200 OK: sfo1::fxqdm-1776549812532-30818cf5f716 [244ms]
+> [debug] [2026-04-18T22:03:32.670Z] #5 → GET https://api.vercel.com/v3/now/deployments/dpl_HkMf1Q1FyCcg2dKK1W88357cLBZ7/events?direction=forward&follow=1&format=lines&teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+[client-debug] 2026-04-18T22:03:34.373Z Deployment state changed to BUILDING
+[client-debug] 2026-04-18T22:03:34.373Z Yielding a 'building' event
+> [debug] [2026-04-18T22:03:34.373Z] Spinner invoked (Building...) with a 0ms delay
+> [debug] [2026-04-18T22:03:35.076Z] #5 ← 200 OK: sfo1::9crqx-1776549812779-c9eba3eddefc [2.40s]
+> [debug] [2026-04-18T22:03:35.082Z] Spinner invoked (Building: Running build in Washington, D.C., USA (East) – iad1) with a 0ms delay
+> [debug] [2026-04-18T22:03:35.082Z] Spinner invoked (Building: Build machine configuration: 2 cores, 8 GB) with a 0ms delay
+> [debug] [2026-04-18T22:03:35.083Z] Spinner invoked (Building: Retrieving list of deployment files...) with a 0ms delay
+> [debug] [2026-04-18T22:03:36.098Z] Spinner invoked (Building: Downloading 71 deployment files...) with a 0ms delay
+> [debug] [2026-04-18T22:03:37.122Z] Spinner invoked (Building: Restored build cache from previous deployment (HYyiqhJ9jkod1hZ8XdjKTgsLRYbx)) with a 0ms delay
+> [debug] [2026-04-18T22:03:38.147Z] Spinner invoked (Building: Running "vercel build") with a 0ms delay
+> [debug] [2026-04-18T22:03:39.152Z] Spinner invoked (Building: Vercel CLI 51.6.1) with a 0ms delay
+> [debug] [2026-04-18T22:03:40.194Z] Spinner invoked (Building: Installing dependencies...) with a 0ms delay
+> [debug] [2026-04-18T22:03:42.252Z] Spinner invoked (Building: up to date in 2s) with a 0ms delay
+> [debug] [2026-04-18T22:03:42.253Z] Spinner invoked (Building: 118 packages are looking for funding) with a 0ms delay
+> [debug] [2026-04-18T22:03:42.253Z] Spinner invoked (Building: run `npm fund` for details) with a 0ms delay
+> [debug] [2026-04-18T22:03:42.253Z] Spinner invoked (Building: Running "npm run build") with a 0ms delay
+> [debug] [2026-04-18T22:03:42.253Z] Spinner invoked (Building: > prompt-generator-frontend@1.0.0 build) with a 0ms delay
+> [debug] [2026-04-18T22:03:42.254Z] Spinner invoked (Building: > vite build) with a 0ms delay
+> [debug] [2026-04-18T22:03:42.254Z] Spinner invoked (Building: vite v5.4.21 building for production...) with a 0ms delay
+> [debug] [2026-04-18T22:03:42.254Z] Spinner invoked (Building: transforming...) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.316Z] Spinner invoked (Building: ✓ 94 modules transformed.) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.318Z] Spinner invoked (Building: rendering chunks...) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.318Z] Spinner invoked (Building: computing gzip size...) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.319Z] Spinner invoked (Building: dist/registerSW.js                0.13 kB) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.319Z] Spinner invoked (Building: dist/manifest.webmanifest         0.46 kB) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.319Z] Spinner invoked (Building: dist/index.html                   0.58 kB │ gzip:  0.35 kB) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.319Z] Spinner invoked (Building: dist/assets/index-C2uhCl-P.css   15.99 kB │ gzip:  3.84 kB) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.319Z] Spinner invoked (Building: dist/assets/index-CRpnFnLD.js   212.14 kB │ gzip: 69.51 kB) with a 0ms delay
+> [debug] [2026-04-18T22:03:44.320Z] Spinner invoked (Building: ✓ built in 2.00s) with a 0ms delay
+> [debug] [2026-04-18T22:03:47.416Z] Spinner invoked (Building: PWA v1.2.0) with a 0ms delay
+> [debug] [2026-04-18T22:03:47.416Z] Spinner invoked (Building: mode      generateSW) with a 0ms delay
+> [debug] [2026-04-18T22:03:47.417Z] Spinner invoked (Building: precache  10 entries (245.35 KiB)) with a 0ms delay
+> [debug] [2026-04-18T22:03:47.417Z] Spinner invoked (Building: files generated) with a 0ms delay
+> [debug] [2026-04-18T22:03:47.417Z] Spinner invoked (Building: dist/sw.js) with a 0ms delay
+> [debug] [2026-04-18T22:03:47.417Z] Spinner invoked (Building: dist/workbox-b51dd497.js) with a 0ms delay
+> [debug] [2026-04-18T22:03:47.417Z] Spinner invoked (Building: Installing dependencies...) with a 0ms delay
+> [debug] [2026-04-18T22:03:48.451Z] Spinner invoked (Building: up to date in 334ms) with a 0ms delay
+> [debug] [2026-04-18T22:03:48.451Z] Spinner invoked (Building: 25 packages are looking for funding) with a 0ms delay
+> [debug] [2026-04-18T22:03:48.452Z] Spinner invoked (Building: run `npm fund` for details) with a 0ms delay
+> [debug] [2026-04-18T22:03:48.452Z] Spinner invoked (Building: ✓ Build complete — Using server.js as the root entrypoint.) with a 0ms delay
+> [debug] [2026-04-18T22:03:50.517Z] Spinner invoked (Building: Build Completed in /vercel/output [10s]) with a 0ms delay
+> [debug] [2026-04-18T22:03:50.517Z] Spinner invoked (Building: Deploying outputs...) with a 0ms delay
+[client-debug] 2026-04-18T22:03:53.633Z Deployment state changed to READY
+✅  Production: https://prompt-generator-buhmng2xy-buat46143-7999s-projects.vercel.app [26s]
+> [debug] [2026-04-18T22:03:53.639Z] Spinner invoked (Completing...) with a 0ms delay
+[client-debug] 2026-04-18T22:03:53.639Z Deployment alias assigned
+[client-debug] 2026-04-18T22:03:53.639Z Deployment is ready
+[client-debug] 2026-04-18T22:03:53.640Z Yielding a 'alias-assigned' event
+🔗  Aliased: https://prompt-generator-blond-chi.vercel.app [26s]
+> [debug] [2026-04-18T22:03:53.643Z] #6 → GET https://api.vercel.com/v13/deployments/dpl_HkMf1Q1FyCcg2dKK1W88357cLBZ7?teamId=team_boN9ijpvfHaHqZY2SjdNZzYK
+> [debug] [2026-04-18T22:03:54.116Z] #6 ← 200 OK: sfo1::xjgpl-1776549833758-ebc8ba42c64c [473ms]
+> [debug] [2026-04-18T22:03:56.236Z] Telemetry subprocess killed due to timeout
+> [debug] [2026-04-18T22:03:56.258Z] Telemetry subprocess exited with code null
