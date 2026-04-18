@@ -24,13 +24,12 @@ export default function PromptForm({ onPromptGenerated, initialDraft, onDraftCha
 
   // Apply initial draft (e.g., from history/template)
   useEffect(() => {
-    if (!initialDraft) return;
+    if (!initialDraft || !providers?.length) return;
 
     const apply = async () => {
       if (initialDraft.provider) {
         setSelectedProvider(initialDraft.provider);
 
-        // Try to load models so the model dropdown is usable immediately
         const providerMeta = providers.find((p) => p.id === initialDraft.provider);
         if (providerMeta && providerMeta.requiresApiKey === false) {
           try {
@@ -47,7 +46,6 @@ export default function PromptForm({ onPromptGenerated, initialDraft, onDraftCha
 
       if (initialDraft.model) setSelectedModel(initialDraft.model);
       if (typeof initialDraft.userInput === 'string') setUserInput(initialDraft.userInput);
-      // NOTE: intentionally do not auto-fill apiKey for privacy
     };
 
     apply();
