@@ -1,15 +1,15 @@
 {
-  "buildCommand": "npm run install:frontend && npm run build",
+  "buildCommand": "npm run build",
   "outputDirectory": "frontend/dist",
   "installCommand": "npm install",
-  "framework": "vite",
-  "build": {
-    "env": {
-      "VITE_API_URL": "/api"
+  "experimentalServices": {
+    "frontend": {
+      "entrypoint": "frontend",
+      "routePrefix": "/"
+    },
+    "backend": {
+      "entrypoint": "backend/server.js",
+      "routePrefix": "/api"
     }
-  },
-  "routes": [
-    {"src": "/api/(?<path>.*)", "dest": "/api/index.js?path=$path"},
-    {"src": "/(.*)", "dest": "/index.html"}
-  ]
+  }
 }
