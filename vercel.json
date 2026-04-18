@@ -2,5 +2,9 @@
   "buildCommand": "npm run install:frontend && npm run build",
   "outputDirectory": "frontend/dist",
   "installCommand": "npm install",
-  "framework": "vite"
+  "framework": "vite",
+  "routes": [
+    {"src": "/api/(?<path>.*)", "dest": "/api/index.js?path=$path"},
+    {"src": "/(.*)", "dest": "/index.html"}
+  ]
 }
